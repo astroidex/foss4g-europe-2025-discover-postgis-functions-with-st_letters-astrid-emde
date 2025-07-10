@@ -44,6 +44,16 @@ SELECT ST_Letters('FOSS4G Europe 2025 Mostar');
 
 ## Scale the text and move it to Mostar
 
+* The default text height is 100.0
+* The default start position places the start of the baseline at the origin.
+
+Here are the steps to do
+
+* Scale the text - make it smaller via ST_Scale
+* Move the text to Mostar via ST_Translate
+* assign EPSG:4326 to the geometry via ST_SetSrid
+
+
 ```sql
 SELECT 
   ST_SetSrid(
@@ -75,6 +85,8 @@ SELECT
 
 * Have a look at the video
 
+[![Watch the video](https://raw.githubusercontent.com/astroidex/foss4g-europe-2025-discover-postgis-functions-with-st_letters-astrid-emde/04d9c8f27c85c75ac50b6c717e4166a2878a8186/img/video_static.png)](https://www.youtube-nocookie.com/)
+
 
 ### Publish QGIS Server WMS and show it in Mapbender
 
@@ -102,4 +114,4 @@ SELECT
 * Fun with Letters in PostGIS 3.3! Jacob Coblentz Crunchy Data https://www.crunchydata.com/blog/fun-with-letters-in-postgis-33
 
 
-Have fun with ST_Letters & PostGIS!
+### Have fun with ST_Letters & PostGIS!
