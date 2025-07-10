@@ -2,7 +2,7 @@
 
 [FOSS4G Europe 2025 Mostar (Bosnia-Herzegovina)](https://2025.europe.foss4g.org/)
 
-![FOSS4G Europe 2025 Mostar (Bosnia-Herzegovina)](img/foss4g-europe-2025.png ) ![](img/postgresql_postgis.png)
+![FOSS4G Europe 2025 Mostar (Bosnia-Herzegovina)](img/foss4g-europe-2025.png ) 
 
 ![Program Link](https://talks.osgeo.org/foss4g-europe-2025/talk/PNYWM8/)
 
@@ -85,7 +85,7 @@ SELECT
 
 * Have a look at the video
 
-[![Watch the video](https://raw.githubusercontent.com/astroidex/foss4g-europe-2025-discover-postgis-functions-with-st_letters-astrid-emde/04d9c8f27c85c75ac50b6c717e4166a2878a8186/img/video_static.png)](https://www.youtube-nocookie.com/)
+[![Watch the video](https://raw.githubusercontent.com/astroidex/foss4g-europe-2025-discover-postgis-functions-with-st_letters-astrid-emde/04d9c8f27c85c75ac50b6c717e4166a2878a8186/img/video_static.png)](https://youtu.be/gVE3IGr5x9k)
 
 
 ### Publish QGIS Server WMS and show it in Mapbender
